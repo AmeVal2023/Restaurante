@@ -1,0 +1,87 @@
+/*
+Theme Name: Chefcito
+Theme URI: https://cuscoinformatico.com/app/chefcito
+Author: Americo Valdeiglesias Romero
+Author URI: https://cuscoinformatico.com/
+Description: App Design for restaurant and bar orders, waiter system
+Tags: App Restaurant, App Bar, Orders System, Waiter App
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: chefcito
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.ocultar{
+    display: none;
+}
+.nav-chefapp li .active {
+color: #ffffff !important;
+background-color: #007bff !important;
+}
+.nav-chefapp{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1.5px 4px, rgba(0, 0, 0, 0.19) 0px 0.5px 2px;
+}
+.nav-chefapp li a {
+    color: #444444;
+    font-weight: 600;
+}
+/*SMARTHPHONES*/
+@media screen and (max-width: 767px) {
+    #nav-chefapp {
+        white-space: nowrap;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar; /* Añade esto para compatibilidad con Microsoft Edge */
+    }
+    
+    .nav-tabs {
+        flex-wrap: nowrap;
+    }
+    
+    .nav-tabs .nav-item {
+        display: inline-block;
+    }
+}
+/*MENU LISTAS*/
+.tab-pane{
+    margin: .5rem;
+}
+.list-menu{
+    border: 1px solid #afafaf;
+    border-radius: 20px;
+}
+.list-menu .card-body{
+    padding: .5rem 1rem 0rem 1rem !important;
+}
+.list-menu .card-body .card-title{
+    font-size: 1rem;
+}
+.list-menu .card-body .card-text{
+    font-weight: bold;
+}
+/*TABLETS*/
+@media screen and (min-width: 768px) and (max-width: 1279px){
+}
+
+/*TABLETS AND SMARTPHONES*/
+@media screen and (max-width: 1279px){
+}
+
+/*LAPTOP TO MORE*/
+@media screen and (min-width: 1279px){
+    .nav-chefapp{
+        justify-content: center !important;
+    }
+}
+
+/*LAPTOPS*/
+@media screen and (max-width: 1600px){
+}
+
+/*MONITORS*/
+@media screen and (min-width: 1601px){
+}
